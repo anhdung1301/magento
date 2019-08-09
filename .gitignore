@@ -1,0 +1,17 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!auth.json
+!/.modman
+!/.modman/**
+!/app
+!/app/code
+!/app/code/Codilar
+!/app/code/Codilar/**
+!composer.json
+# etc...
+
+# ...even if they are in subdirectories
+#!*/
